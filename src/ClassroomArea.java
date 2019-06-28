@@ -32,6 +32,7 @@ public class ClassroomArea {
 			userInput = scnr.next();
 			userInput = userInput.toLowerCase();
 		} while (userInput.equals("y"));
+		scnr.close();
 		System.out.print("Bye");
 	}
 
